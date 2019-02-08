@@ -10,7 +10,7 @@ pipeline {
       steps {
         sh 'echo "This is the 2nd step towards Automation!"'
         sh 'ls -lh > store.txt'
-        sh 'echo store.txt'
+        sh 'cat store.txt'
       }
     }
   }
